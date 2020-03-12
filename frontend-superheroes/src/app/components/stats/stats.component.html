@@ -1,0 +1,47 @@
+<div class="max">
+  <button type="button" class="btn btn-primary btn-block" routerLink="graphics">View Graphics</button>
+  <div class="table-responsive scroll">
+    <table class="table table-striped table-fixed">
+      <thead>
+      <tr>
+        <th scope="col">Super Hero ID</th>
+        <th scope="col">Quantity</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr *ngFor="let stat of stats">
+        <th scope="row">{{stat["hero-id"]}}</th>
+        <td>{{stat.quantity}}</td>
+      </tr>
+      <tr>
+        <th scope="row">Total</th>
+        <td>{{getTotal()}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

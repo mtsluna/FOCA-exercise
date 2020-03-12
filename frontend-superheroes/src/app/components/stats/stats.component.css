@@ -1,0 +1,9 @@
+.max {
+  padding: 1%;
+  background-color: #e9ecef;
+}
+
+.scroll {
+  overflow: scroll;
+  height: 600px;
+}

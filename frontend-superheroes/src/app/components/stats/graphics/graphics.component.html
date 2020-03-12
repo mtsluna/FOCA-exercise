@@ -1,0 +1,20 @@
+<div class="max" align="center">
+  <button type="button" class="btn btn-danger btn-block" routerLink="/stats">View Stats</button>
+  <hr>
+  <div class="width">
+    <p><b>The most popular super heroes by ID</b></p>
+    <div style="display: block">
+      <canvas mdbChart
+              [chartType]="chartType"
+              [datasets]="this.chartDatasets"
+              [labels]="this.arrayHero"
+              [colors]="chartColors"
+              [options]="chartOptions"
+              [legend]="true"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)">
+      </canvas>
+    </div>
+  </div>
+  <hr>
+</div>
